@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Bootstrap Visualization Dashboard</title>
+    <title>Predicting Apple Stock Using Liner Regression</title>
 
     <!-- Boostrap Stylesheet -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
 
     <!-- Our own CSS stylesheet -->
-    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+    <link rel="stylesheet" href="css/styles.css" media="screen">
 
   </head>
 
@@ -30,8 +30,8 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <div class="col-xs-9 phone-nav">
-              <a class="navbar-brand" href="#" id="logo">Lattitude</a>
+            <div class="col-xs-12 phone-nav">
+              <a class="navbar-brand" href="#" id="logo">Predicting Apple Stock Using Liner Regression</a>
             </div>
           </div>
 
@@ -41,13 +41,13 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                 <li><a href="visualizations/temp.html">Max Temperature</a></li>
-                  <li><a href="visualizations/humidity.html">Humidity</a></li>
-                  <li><a href="visualizations/cloudiness.html">Cloudiness</a></li>
-                  <li><a href="visualizations/wind.html">Wind Speed</a></li>
+                 <li><a href="visualizations/temp.html">Train</a></li>
+                  <li><a href="visualizations/humidity.html">Test</a></li>
+                  <li><a href="visualizations/cloudiness.html">Validate</a></li>
+                  <li><a href="visualizations/wind.html">Linear Regression</a></li>
                 </ul>
               </li>
-              <li><a href="comparison.html">Comparison</a></li>
+              <li><a href="comparison.html">Income Analysis</a></li>
               <li><a href="data.html">Data</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
@@ -61,9 +61,9 @@
       <section class="row">
         <div class="col-md-8">
           <article class="description-content">
-            <h1 class="description-header">Summary: Latitude vs. X</h1>
+            <h1 class="description-header">Goal</h1>
             <hr class="description-hr"/>
-            <img src="assets/images/Fig1.png" alt="" id="description-image"/>
+            <img src="images/Aj_close history.png" alt="" id="description-image"/>
             <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
             <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
           </article>
@@ -76,10 +76,10 @@
               <h2 class="imageNav-header">Visualizations</h2>
               <hr />
               <div id="images">
-                <a href="visualizations/temp.html"><img src="assets/images/Fig1.png" alt="Latitude vs. Max Temperature" class="imageNav-photo"></a>
-                <a href="visualizations/humidity.html"><img src="assets/images/Fig2.png" alt="Latitude vs. Humidity" class="imageNav-photo"></a>
-                <a href="visualizations/cloudiness.html"><img src="assets/images/Fig3.png" alt="Latitude vs. Cloudiness" class="imageNav-photo"></a>
-                <a href="visualizations/wind.html"><img src="assets/images/Fig4.png" alt="Latitude vs. Wind Speed" class="imageNav-photo"></a>
+                <a href="visualizations/wind.html"></a><img src="images/dataset.png" alt="Latitude vs. Max Temperature" class="imageNav-photo"></a>
+                <a href="visualizations/wind.html"></a><img src="images/Aj_close history.png" alt="Latitude vs. Humidity" class="imageNav-photo"></a>
+                <a href="visualizations/wind.html"></a><img src="images/Slpit.png" alt="Latitude vs. Cloudiness" class="imageNav-photo"></a>
+                <a href="visualizations/wind.html"></a><img src="images/Nextday.png" alt="Latitude vs. Wind Speed" class="imageNav-photo"></a>
               </div>
             </div>
           </section>
